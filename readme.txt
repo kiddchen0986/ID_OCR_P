@@ -3,7 +3,6 @@ Description:
 
 1. Install pillow, pytesseract by using pip.
 2. Install Tesseract-OCR.exe and configure enviroment.
-   Download: https://github.com/UB-Mannheim/tesseract/wiki
    Steps:
    1. Double click tesseract.exe. 
       链接：https://pan.baidu.com/s/1HfpvdteCGpBAUiZhvVab_A 提取码：lvfn
