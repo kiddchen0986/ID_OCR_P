@@ -1,12 +1,14 @@
-Config enviroment:
+Description:
 
-Reference(https://blog.csdn.net/qq_38161040/article/details/90649497):
-1. 我们需要 pillow 和 pytesseract 这两个库，pip install 安装就好了
-2. 安装 Tesseract-OCR.exe 然后配置下就好了。 
-   Download: https://github.com/UB-Mannheim/tesseract/wiki
+
+1. Install pillow, pytesseract by using pip.
+2. Install Tesseract-OCR.exe and configure enviroment.
    Steps:
-   1. Double click tesseract.exe. Here attached <tesseract-ocr-w64-setup-v5.0.1.20220118.exe>
+   1. Double click tesseract.exe. 
+      链接：https://pan.baidu.com/s/1HfpvdteCGpBAUiZhvVab_A 提取码：lvfn
    2. In python installion director, to search pytesseract.py. Open to modify it for below information:
-      tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe', the right value is installion director of step 1.
+      tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe', the right value is installion director of step 1(like C:\Program Files (x86)\Tesseract-OCR).
       RGB_MODE = 'RGB'
-     
+   3. unzip tessdata_language_sets.zip, copy chi_sim.traineddata and eng.traineddata to installion director of step 1.
+      链接：https://pan.baidu.com/s/15raLAWiZklmAkw6Q4n_JWA  提取码：ex6g
+
