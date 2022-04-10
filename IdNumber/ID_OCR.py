@@ -119,7 +119,7 @@ def identity_OCR_Video(pic_path):
 
 time1 = time.time()
 if __name__ == '__main__':
-    pic_path = r"image\1.jpg"
+    pic_path = r"../image/1.jpg"
     identity_OCR(pic_path)
     # identity_OCR_Video(0)
     # identity_OCR_Chine(pic_path)
